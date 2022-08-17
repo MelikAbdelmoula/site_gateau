@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <Title>Recette Gâteau</Title>
+        <link rel="stylesheet" href="recette.css"/>
+
+
+<!-- Important: si je mets p#categorie ça va appliquer juste aux p, si je mets pas p, à toutes les id-->
+<!--Je peux aussi mettre p.categorie, h1, h.2, h2.categorie etc.-->    
+<!--propriété display: block(tte la ligne), inline(place nécessaire) et inline-block inline mais avec plus de controle-->
+
+    </head>
+
+    <body>
+
+        <div class="centre categorie"> <!--J'applique 2 classes-->
+            <p class="categorie">Recette</p>
+        </div>
+
+
+        <div class="contenu">
+
+
+            <h1>Recette du gateau au chocolat</h1>
+
+            <div class="separateur"></div>
+
+            <div class="centre">
+                <p class="description">Cette recette facile du gateau au chocolat est un grand classique. Elle fera plaisir aux plus gourmands</p>
+            </div>
+
+
+            <div class="info"> 
+                
+                <img class ="centre info"  src="gateau.jpg">
+                
+
+            
+
+                <Table class="info"> 
+                    <tr>
+                        <th>Difficulté</th>
+                        <th>Préparation</th>
+                        <th>Cuisson</th>
+                        <th>Temps total</th>
+                    </tr>
+                    <tr>
+                        <td>Facile</td>
+                        <td>10 min</td>
+                        <td>25 min</td>
+                        <td>35 min</td>
+                    </tr>
+
+
+
+                </Table>
+
+            </div>
+
+            <div class="colonne1 colonne">
+                <h2>Ingrédients</h2>
+                    <div class="ingredients">
+                        <p>Chocolat noir: 200g</p>
+                        <p>Sucre: 150g</p>
+                        <p>Beurre: 200g</p>
+                        <p>Oeufs: 4</p>
+                        <p>Farine: 80g</p>
+                    </div>
+            </div>
+
+            <div class="colonne2 colonne">
+                <h2>Préparation</h2>
+                    <Table class="preparation">
+                    
+                        <tr><td><p class="numero">1</p></td><td class="preparation_etape">Faire fondre le chocolat avec le beurre</td></tr>
+                        <tr><td><p class="numero">2</p></td><td class="preparation_etape">Mélanger le sucre, les oeufs et la farine</td></tr>
+                        <tr><td><p class="numero">3</p></td><td class="preparation_etape">Mélanger le tout pour faire une pate</td></tr>
+                        <tr><td><p class="numero">4</p></td><td class="preparation_etape">Mettre au four</td></tr>
+                    
+                    </Table>
+            </div>
+
+
+
+
+
+        </div>
+    </body>
+
+
+
+
+
+
+</html>
